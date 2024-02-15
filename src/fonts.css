@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'CfBlackboardPersonalRegular-AKPg';
+    src: local('CfBlackboardPersonalRegular-AKPg'), url(./assets/fonts/CfBlackboardPersonalRegular-AKPg.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'DkCrayonCrumble-ddll';
+    src: local('DkCrayonCrumble-ddll'), url(./assets/fonts/DkCrayonCrumble-ddll.ttf) format('truetype');
+}

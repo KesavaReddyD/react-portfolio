@@ -1,0 +1,64 @@
+.logo{
+    font-family: 'DkCrayonCrumble-ddll';
+    font-size: 3rem;
+}
+
+/* .contact-me{
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: white;
+    font-family: 'DkCrayonCrumble-ddll' ;
+} */
+
+.nav-bar{
+    width: 100vw;
+    height: 6rem;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.nav-link{
+    margin: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: white;
+    font-size: 2rem;
+}
+
+.nav-link:hover{
+    /* border-bottom: 3px solid; */
+    font-size: 2.5rem;
+    color: #EBB93E;
+}
+
+.contact-me{
+    border: none;
+    position: relative;
+}
+
+.contact-me:hover{
+    transform: rotate(5deg);
+}
+
+.duster{
+    object-fit: cover;
+    width: 9rem;
+    padding-top: 1rem;
+    
+}
+
+.contact-me p{
+    position: absolute;
+    top: 4rem;
+    left: 1.3rem;
+    font-family: 'DkCrayonCrumble-ddll';
+    color: rgb(221, 152, 62);
+    font-size: 1.7rem;
+}

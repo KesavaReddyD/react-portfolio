@@ -1,0 +1,25 @@
+#home{
+    height: calc(100vh- 6rem);
+    width: 100vw;
+    max-width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.clouds{
+    position: absolute;
+    top: 0;
+    right: 0;
+    object-fit: cover;
+    width: 450px;
+    z-index: -1;
+
+}
+
+.intro{
+    height: calc(100vh - 6rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
