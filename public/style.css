@@ -8,6 +8,10 @@
     color:white
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 body{
     background-color: #274c43;
     overflow: hidden;

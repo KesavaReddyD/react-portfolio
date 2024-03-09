@@ -1,0 +1,26 @@
+#projects{
+    width: 100vw;
+    max-width: 80%;
+    height: 90vh;
+    margin: 0  auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ptitle{
+    font-size: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 100;
+    color: #d3c24d;
+}
+
+.projcontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}

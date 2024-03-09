@@ -14,12 +14,19 @@
     object-fit: cover;
     width: 450px;
     z-index: -1;
-
 }
 
 .intro{
-    height: calc(100vh - 6rem);
+    height: calc(100vh - 4rem);
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+    .clouds{
+        width: 300px;
+        margin: -2rem;
+    }
+    
 }

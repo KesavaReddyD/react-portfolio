@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-import clouds from '../assets/images/clouds.png'
+import clouds from '../../assets/images/clouds.png'
 
 const Home = () => {
   return (

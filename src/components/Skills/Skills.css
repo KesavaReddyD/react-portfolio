@@ -1,0 +1,35 @@
+#Skills{
+    width: 100vw;
+    height: calc(100vh - 4rem);
+    max-width: 80vw;
+    margin: 0 auto;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skitle{
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 0 0 0;
+    font-size: 3rem;
+    font-weight: 100;
+    color: #e7b177;
+}
+
+.skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 540px){
+    section{
+        max-width: 100vh;
+    }
+}

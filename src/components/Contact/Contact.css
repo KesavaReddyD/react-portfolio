@@ -1,0 +1,61 @@
+#contactme{
+    margin: 0 auto;
+    width: 100vw;
+    height: calc(100vh - 4rem);
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.conthead{
+    font-size: 3rem;
+    color: #9fcede;
+    font-weight: 100;
+    padding: 1rem;
+}
+
+.contxt{
+    font-size: 1.5rem;
+    max-width: 45vw;
+    padding-bottom: 0.5rem;
+}
+
+.contactform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.name, .email, .msg{
+    background-color: white;
+    font-size: 1.4rem;
+    color: black;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 40vw;
+    border: 1px solid #9fcede;
+    border-radius: 5px;
+   
+}
+
+.name:hover, .email:hover, .msg:hover,.name:focus, .email:focus, .msg:focus{
+    outline: none;
+}
+
+.subbtn{
+    background-color: #9fcede;
+    color: white;
+    font-size: 1rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 20vw;
+    border: 1px solid #9fcede;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,45 @@
+.card{
+    border: 3px dashed #ffffff;
+    width: 300px;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.card > img{
+    width: 100%;
+    object-fit: cover;
+   border-bottom:1px dashed #fff;
+    
+}
+
+.projname{
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #e2a6a3;
+    margin: 0.75rem 0 0 0.75rem;
+    
+}
+
+.projdes{
+    font-size: 1.25rem;
+    font-weight: 100;
+    color: #fff;
+    margin: 0.75rem;
+}
+
+.projbtn{
+    background-color: #000;
+    font-size: 1.25rem;
+    border: none;
+    margin: 0.75rem;
+    padding: 0.5rem 0.75rem ;
+    border-radius: 0.5rem;
+}
+
+
+
+.projbtn:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+

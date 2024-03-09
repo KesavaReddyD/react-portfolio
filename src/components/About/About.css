@@ -1,0 +1,24 @@
+#About{
+    width: 100vw;
+    height: 90vh;
+    max-width: 80vw;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me{
+    font-size: 3rem;
+    font-weight: 100;
+    color: #b9eb86;
+}
+
+.description{
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-top: 2rem;
+    text-align: center;
+}
