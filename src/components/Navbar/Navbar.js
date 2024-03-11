@@ -22,14 +22,14 @@ const Navbar = () => {
         </p>
         <div className='deskmenu'>
           <div>
-              <Link activeClass='active' to='home' spy={true} smooth={true} offset={-100} duration={700} className='nav-link'>Home</Link>
-              <Link activeClass='active' to='About' spy={true} smooth={true} offset={-100} duration={700} className='nav-link'>About</Link>
-              <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-100} duration={700} className='nav-link'>Projects</Link>
-              <Link activeClass='active' to='Skills' spy={true} smooth={true}  offset={-100} duration={700} className='nav-link'>Skills</Link>
+              <Link activeClass='active' to='home' spy={true} smooth={true} offset={-100} duration={1000} className='nav-link'>Home</Link>
+              <Link activeClass='active' to='About' spy={true} smooth={true} offset={-100} duration={1000} className='nav-link'>About</Link>
+              <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-100} duration={1000} className='nav-link'>Projects</Link>
+              <Link activeClass='active' to='Skills' spy={true} smooth={true}  offset={-100} duration={1000} className='nav-link'>Skills</Link>
           </div>
           <button className='contact-me'>
             <img src={duster} alt='contact me' className='duster'/>
-            <Link activeClass='active' to='contactme' spy={true} smooth={true} offset={-100} duration={700} className='link'>contact me</Link>
+            <Link activeClass='active' to='contactme' spy={true} smooth={true} offset={-100} duration={1000} className='link'>contact me</Link>
           </button>
         </div>
         <div className='mobmenu'>
@@ -38,11 +38,11 @@ const Navbar = () => {
               <img src={chalk} alt='menu' className='chalk'/>
             </button>
             <div className='dropdown-content' style={{display: showmenu ? "flex" : "none"} }>
-              <Link activeClass='active' to='home' spy={true} smooth={true} offset={-100} duration={700} className='mob-link' onClick={ () => setshowmenu(false)}>Home</Link>
-              <Link activeClass='active' to='About' spy={true} smooth={true} offset={-100} duration={700} className='mob-link' onClick={ () => setshowmenu(false)}>About</Link>
-              <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-100} duration={700} className='mob-link' onClick={ () => setshowmenu(false)}>Projects</Link>
-              <Link activeClass='active' to='Skills' spy={true} smooth={true} offset={-100} duration={700} className='mob-link' onClick={ () => setshowmenu(false)}>Skills</Link>
-              <Link activeClass='active' to='contactme' spy={true} smooth={true} offset={-100} duration={700} className='mob-link' onClick={ () => setshowmenu(false)}>Contact Me</Link>
+              <Link activeClass='active' to='home' spy={true} smooth={true} offset={-100} duration={1000} className='mob-link' onClick={ () => setshowmenu(false)}>Home</Link>
+              <Link activeClass='active' to='About' spy={true} smooth={true} offset={-100} duration={1000} className='mob-link' onClick={ () => setshowmenu(false)}>About</Link>
+              <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-100} duration={1000} className='mob-link' onClick={ () => setshowmenu(false)}>Projects</Link>
+              <Link activeClass='active' to='Skills' spy={true} smooth={true} offset={-100} duration={1000} className='mob-link' onClick={ () => setshowmenu(false)}>Skills</Link>
+              <Link activeClass='active' to='contactme' spy={true} smooth={true} offset={-100} duration={1000} className='mob-link' onClick={ () => setshowmenu(false)}>Contact Me</Link>
             </div>
           </div>
         </div>
